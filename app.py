@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import string
 import os
-import nltk
+
 from nltk.corpus import stopwords
 
 # Download required NLTK data
