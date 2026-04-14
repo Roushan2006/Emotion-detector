@@ -1,7 +1,7 @@
 # 🎭 Emotiq — AI Emotion Detector
 
 <p align="center">
-  <img src="banner.png" alt="Emotiq Banner" width="100%">
+  <img src="Emotiq emotion detection interface preview.png" alt="Emotiq Banner" width="100%">
 </p>
 
 <p align="center">
