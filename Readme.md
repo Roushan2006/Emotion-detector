@@ -5,85 +5,77 @@
 </p>
 
 <p align="center">
-  <b>Detect human emotions from text using Machine Learning</b><br>
-  Fast • Accurate • Beautiful UI
+  <b>Understand emotions through text — instantly.</b><br><br>
+  
+  <img src="https://img.shields.io/badge/Accuracy-86%25-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Model-Logistic%20Regression-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Frontend-Streamlit-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/NLP-NLTK-yellow?style=for-the-badge">
 </p>
 
 ---
 
 ## 🌐 Live Demo
 
-🚀 **Try it here:**  
-👉 https://YOUR-STREAMLIT-APP-URL.streamlit.app  
+<p align="center">
+  🚀 <a href="https://YOUR-STREAMLIT-APP-URL.streamlit.app"><b>Launch Emotiq</b></a>
+</p>
 
 ---
 
 ## ✨ Features
 
-🎯 **6 Emotion Classes**  
-Sadness • Anger • Love • Surprise • Fear • Joy  
+<div align="center">
 
-📊 **Confidence Scores**  
-Visual probability breakdown for each emotion  
+| 🎯 Emotion Detection | 📊 Confidence Scores | ⚡ Real-Time |
+|---------------------|---------------------|-------------|
+| 6 emotion classes | Probability breakdown | Instant predictions |
 
-⚡ **Real-Time Prediction**  
-Instant results with smooth UI experience  
+| 🧪 Sample Inputs | 🔍 Preprocessing | 🎨 UI Design |
+|----------------|----------------|-------------|
+| One-click testing | Cleaned text preview | Elegant modern interface |
 
-🧪 **Sample Inputs**  
-Test quickly using pre-built examples  
-
-🔍 **Preprocessing Viewer**  
-See how text is cleaned before prediction  
-
-🎨 **Modern UI**  
-Minimal, editorial design with animations  
+</div>
 
 ---
 
-## 🧠 Model Performance
-
-| Metric        | Value |
-|--------------|------|
-| Accuracy      | ~86% |
-| Model         | Logistic Regression |
-| Vectorizer    | TF-IDF (10,000 features) |
-| NLP Library   | NLTK |
-
-### 🧹 Preprocessing Steps
-- Lowercasing  
-- Punctuation removal  
-- Stopword removal  
-
----
-
-## 📸 Preview
+## 🎯 Supported Emotions
 
 <p align="center">
-  <img src="preview.png" width="80%">
+
+😊 Joy &nbsp;&nbsp; ❤️ Love &nbsp;&nbsp; 😢 Sadness &nbsp;&nbsp; 😡 Anger &nbsp;&nbsp; 😱 Fear &nbsp;&nbsp; 😲 Surprise
+
 </p>
 
 ---
 
-## 🚀 Getting Started
+## 🧠 Model Overview
 
-### 1️⃣ Clone Repository
-
-```bash
+```text
+Algorithm     → Logistic Regression (Multi-class)
+Vectorizer    → TF-IDF (10,000 features)
+Accuracy      → ~86%
+🧹 Text Preprocessing Pipeline
+Lowercasing
+Punctuation removal
+Stopword removal
+📸 Preview
+<p align="center"> <img src="preview.png" width="85%"> </p>
+🚀 Getting Started
+1️⃣ Clone Repository
 git clone https://github.com/YOUR_USERNAME/emotion-detector.git
 cd emotion-detector
 2️⃣ Install Dependencies
 pip install -r requirements.txt
-3️⃣ Train the Model
-
-Run:
-
+3️⃣ Train Model
+# Open notebook
 simple.ipynb
 
-This will generate:
+⬇️ Generates:
 
 model/emotion_model.pkl  
 model/tfidf_vectorizer.pkl
-4️⃣ Run the App
+4️⃣ Run App
 streamlit run app.py
 📁 Project Structure
 emotion-detector/
@@ -96,30 +88,39 @@ emotion-detector/
 ├── requirements.txt
 └── README.md
 🛠 Tech Stack
-Frontend: Streamlit
-ML Model: Scikit-learn (Logistic Regression)
-Vectorization: TF-IDF
-NLP: NLTK
-Styling: Custom CSS
+Layer	Technology
+🎨 Frontend	Streamlit
+🤖 Model	Scikit-learn
+🔤 NLP	NLTK
+📊 Features	TF-IDF
+🎭 UI	Custom CSS
 🎨 UI Highlights
-Editorial typography (Playfair + DM Sans)
-Emotion-based color themes
-Animated confidence bars
-Clean and minimal layout
+
+✨ Editorial typography (Playfair + DM Sans)
+🎨 Emotion-based dynamic colors
+📊 Animated confidence bars
+🧼 Clean, minimal layout
+
 ⚙️ Deployment
 
-Easily deploy using:
+Deploy easily on:
 
-Streamlit Cloud
-Render
-Hugging Face Spaces
+🚀 Streamlit Cloud
+🌐 Render
+🤗 Hugging Face Spaces
 💡 Future Improvements
-🔊 Voice emotion detection
+🔊 Voice-based emotion detection
 🌍 Multi-language support
-🧠 Deep learning models (BERT / LSTM)
-📱 Mobile responsiveness
+🧠 Deep Learning (BERT / LSTM)
+📱 Mobile optimization
 🤝 Contributing
 
-Contributions are welcome!
+We welcome contributions!
 
 fork → clone → branch → commit → push → pull request
+📜 License
+
+MIT License © 2026
+
+⭐ Support
+<p align="center"> If you like this project, give it a ⭐ on GitHub<br><br> Made with ❤️ using Machine Learning </p> ```
