@@ -18,7 +18,7 @@
 ## 🌐 Live Demo
 
 <p align="center">
-  🚀 <a href="https://YOUR-STREAMLIT-APP-URL.streamlit.app"><b>Launch Emotiq</b></a>
+  🚀 <a href="https://emotion-detector2006.streamlit.app/"><b>Launch Emotiq</b></a>
 </p>
 
 ---
