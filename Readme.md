@@ -64,13 +64,19 @@ Stopword removal
 
 
 📸 Preview
-<p align="center"> <img src="preview.png" width="85%"> </p>
+<p align="center"> <img src="2026-04-15.png" width="85%"> </p>
+
+
 🚀 Getting Started
+
+
 1️⃣ Clone Repository
-git clone https://github.com/YOUR_USERNAME/emotion-detector.git
+git clone https://github.com/Roushan2006/Emotion-detector.git
 cd emotion-detector
+
 2️⃣ Install Dependencies
 pip install -r requirements.txt
+
 3️⃣ Train Model
 # Open notebook
 simple.ipynb
@@ -79,8 +85,11 @@ simple.ipynb
 
 model/emotion_model.pkl  
 model/tfidf_vectorizer.pkl
+
 4️⃣ Run App
 streamlit run app.py
+
+
 📁 Project Structure
 emotion-detector/
 │
@@ -91,7 +100,10 @@ emotion-detector/
 │   └── tfidf_vectorizer.pkl
 ├── requirements.txt
 └── README.md
+
+
 🛠 Tech Stack
+
 Layer	Technology
 🎨 Frontend	Streamlit
 🤖 Model	Scikit-learn
@@ -122,6 +134,7 @@ Deploy easily on:
 We welcome contributions!
 
 fork → clone → branch → commit → push → pull request
+
 📜 License
 
 MIT License © 2026
