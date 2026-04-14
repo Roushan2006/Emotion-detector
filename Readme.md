@@ -49,37 +49,31 @@
 
 ---
 
-📸 Preview
+## 📸 Preview
 <p align="center"> <img src="2026-04-15.png" width="85%"> </p>
 
 ## 🧠 Model Overview
-
-```text
 Algorithm     → Logistic Regression (Multi-class)
 Vectorizer    → TF-IDF (10,000 features)
 Accuracy      → ~86%
 
 
-🧹 Text Preprocessing Pipeline
+## 🧹 Text Preprocessing Pipeline
 Lowercasing
 Punctuation removal
 Stopword removal
 
 
+## 🚀 Getting Started
 
-
-
-🚀 Getting Started
-
-
-1️⃣ Clone Repository
+## 1️⃣ Clone Repository
 git clone https://github.com/Roushan2006/Emotion-detector.git
 cd emotion-detector
 
-2️⃣ Install Dependencies
+## 2️⃣ Install Dependencies
 pip install -r requirements.txt
 
-3️⃣ Train Model
+## 3️⃣ Train Model
 # Open notebook
 simple.ipynb
 
@@ -88,11 +82,11 @@ simple.ipynb
 model/emotion_model.pkl  
 model/tfidf_vectorizer.pkl
 
-4️⃣ Run App
+## 4️⃣ Run App
 streamlit run app.py
 
 
-📁 Project Structure
+## 📁 Project Structure
 emotion-detector/
 │
 ├── app.py
@@ -104,9 +98,9 @@ emotion-detector/
 └── README.md
 
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
-Layer	Technology
+# Layer	Technology
 🎨 Frontend	Streamlit
 🤖 Model	Scikit-learn
 🔤 NLP	NLTK
@@ -119,14 +113,15 @@ Layer	Technology
 📊 Animated confidence bars
 🧼 Clean, minimal layout
 
-⚙️ Deployment
+## ⚙️ Deployment
 
 Deploy easily on:
 
 🚀 Streamlit Cloud
 🌐 Render
 🤗 Hugging Face Spaces
-💡 Future Improvements
+
+##  💡 Future Improvements
 🔊 Voice-based emotion detection
 🌍 Multi-language support
 🧠 Deep Learning (BERT / LSTM)
@@ -137,9 +132,9 @@ We welcome contributions!
 
 fork → clone → branch → commit → push → pull request
 
-📜 License
+##  📜 License
 
 MIT License © 2026
 
 ⭐ Support
-<p align="center"> If you like this project, give it a ⭐ on GitHub<br><br> Made with ❤️ using Machine Learning </p> ```
+<p align="center"> If you like this project, give it a ⭐ on GitHub<br><br> Made with ❤️ using Machine Learning </p> 
