@@ -49,92 +49,129 @@
 
 ---
 
+
+
+## 🧠 Model Overview
+
+Algorithm     → Logistic Regression (Multi-class)
+
+Vectorizer    → TF-IDF (10,000 features)
+
+Accuracy      → ~86%
+
+## 🧹 Text Preprocessing
+
+Lowercasing
+
+Punctuation removal
+
+Stopword removal
+
 ## 📸 Preview
 <p align="center"> <img src="2026-04-15.png" width="85%"> </p>
 
-## 🧠 Model Overview
-'''Algorithm     → Logistic Regression (Multi-class)
-Vectorizer    → TF-IDF (10,000 features)
-Accuracy      → ~86%'''
+#### 🚀 Installation & Usage
 
+## 1️⃣ Clone the Repository
 
-## 🧹 Text Preprocessing Pipeline
-Lowercasing
-Punctuation removal
-Stopword removal
-
-
-## 🚀 Getting Started
-
-## 1️⃣ Clone Repository
 git clone https://github.com/Roushan2006/Emotion-detector.git
+
 cd emotion-detector
 
 ## 2️⃣ Install Dependencies
+
 pip install -r requirements.txt
 
-## 3️⃣ Train Model
-# Open notebook
+## 3️⃣ Train the Model
+
+Open:
+
 simple.ipynb
 
-⬇️ Generates:
+This will generate:
 
-model/emotion_model.pkl  
+model/emotion_model.pkl
+
 model/tfidf_vectorizer.pkl
 
-## 4️⃣ Run App
+## 4️⃣ Run the App
+
 streamlit run app.py
 
-
 ## 📁 Project Structure
+
+
 emotion-detector/
+
 │
+
 ├── app.py
+
 ├── simple.ipynb
+
 ├── model/
+
 │   ├── emotion_model.pkl
+
 │   └── tfidf_vectorizer.pkl
+
 ├── requirements.txt
+
 └── README.md
 
 
 ## 🛠 Tech Stack
 
-# Layer	Technology
-🎨 Frontend	Streamlit
-🤖 Model	Scikit-learn
-🔤 NLP	NLTK
-📊 Features	TF-IDF
-🎭 UI	Custom CSS
-🎨 UI Highlights
+Layer	Technology
 
-✨ Editorial typography (Playfair + DM Sans)
-🎨 Emotion-based dynamic colors
-📊 Animated confidence bars
-🧼 Clean, minimal layout
+🎨 Frontend	Streamlit
+
+🤖 ML Model	Scikit-learn
+
+🔤 NLP	NLTK
+
+📊 Features	TF-IDF
+
+🎭 Styling	Custom CSS
 
 ## ⚙️ Deployment
 
 Deploy easily on:
 
+
 🚀 Streamlit Cloud
+
 🌐 Render
+
 🤗 Hugging Face Spaces
 
-##  💡 Future Improvements
+## 💡 Future Improvements
+
+
 🔊 Voice-based emotion detection
+
 🌍 Multi-language support
-🧠 Deep Learning (BERT / LSTM)
-📱 Mobile optimization
-🤝 Contributing
 
-We welcome contributions!
+🧠 Deep Learning models (BERT / LSTM)
 
-fork → clone → branch → commit → push → pull request
+📱 Mobile-friendly UI
 
-##  📜 License
 
-MIT License © 2026
+## 🤝 Contributing
 
-⭐ Support
-<p align="center"> If you like this project, give it a ⭐ on GitHub<br><br> Made with ❤️ using Machine Learning </p> 
+
+Contributions are welcome!
+
+Fork → Clone → Create Branch → Commit → Push → Pull Request
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+## ⭐ Show Your Support
+
+If you like this project:
+
+👉 Give it a ⭐ on GitHub
+👉 Share it with others
+
