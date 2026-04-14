@@ -49,6 +49,9 @@
 
 ---
 
+📸 Preview
+<p align="center"> <img src="2026-04-15.png" width="85%"> </p>
+
 ## 🧠 Model Overview
 
 ```text
@@ -63,8 +66,7 @@ Punctuation removal
 Stopword removal
 
 
-📸 Preview
-<p align="center"> <img src="2026-04-15.png" width="85%"> </p>
+
 
 
 🚀 Getting Started
