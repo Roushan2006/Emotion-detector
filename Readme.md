@@ -55,10 +55,14 @@
 Algorithm     → Logistic Regression (Multi-class)
 Vectorizer    → TF-IDF (10,000 features)
 Accuracy      → ~86%
+
+
 🧹 Text Preprocessing Pipeline
 Lowercasing
 Punctuation removal
 Stopword removal
+
+
 📸 Preview
 <p align="center"> <img src="preview.png" width="85%"> </p>
 🚀 Getting Started
