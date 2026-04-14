@@ -53,9 +53,9 @@
 <p align="center"> <img src="2026-04-15.png" width="85%"> </p>
 
 ## 🧠 Model Overview
-Algorithm     → Logistic Regression (Multi-class)
+'''Algorithm     → Logistic Regression (Multi-class)
 Vectorizer    → TF-IDF (10,000 features)
-Accuracy      → ~86%
+Accuracy      → ~86%'''
 
 
 ## 🧹 Text Preprocessing Pipeline
